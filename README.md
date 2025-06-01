@@ -1,5 +1,5 @@
 # capstone-nadia
-Analisis Sentimen Tweet Terkait PPKM Menggunakan Metode NLP dan Machine Learning
+*Analisis Sentimen Tweet Terkait PPKM Menggunakan Metode NLP dan Machine Learning*
 
 # Project Overviews
 ![image](https://github.com/user-attachments/assets/9fd022a6-2e36-4208-9b29-3823f7caad50)
