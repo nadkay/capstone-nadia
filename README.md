@@ -1,9 +1,12 @@
 # capstone-nadia
 
-# Dataset link
+# Project Overviews
+![image](https://github.com/user-attachments/assets/9fd022a6-2e36-4208-9b29-3823f7caad50)
+
+# Dataset Link
 https://www.kaggle.com/datasets/anggapurnama/twitter-dataset-ppkm?select=INA_TweetsPPKM_Labeled_Pure.csv
 
-# Insight & findings
+# Insight & Findings
 1. Distribusi Sentimen Awal Tidak Seimbang
 Dataset asli memiliki distribusi sentimen yang tidak merata (sentimen netral jauh lebih banyak dari positif dan negatif).
 Langkah: dilakukan undersampling untuk menyamakan jumlah data tiap kelas (positif, negatif, netral).
@@ -34,7 +37,7 @@ Insight: N-gram memberikan konteks tambahan dalam mendeteksi sentimen (contoh: â
 SVM menunjukkan akurasi dan f1-score lebih tinggi dibanding Decision Tree.
 Insight: SVM lebih cocok untuk data teks berdimensi tinggi karena tidak mudah overfitting dan bekerja optimal dengan data sparse (seperti hasil TF-IDF).
 
-# AI support explanation
+# AI Support Explanation
 1. Mengapa Preprocessing Penting dalam NLP
 AI seperti model NLP memerlukan data bersih dan konsisten. Teks mentah mengandung banyak noise (seperti emotikon, link, slang) yang dapat mengganggu akurasi.
 Dengan stopword removal dan stemming, model dapat fokus hanya pada kata-kata bermakna.
